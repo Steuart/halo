@@ -33,3 +33,4 @@ nbdist/
 ### VS Code ###
 *.project
 *.factorypath
+prod.properties
