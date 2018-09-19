@@ -18,9 +18,9 @@ spring:
 
     #MySql配置
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://127.0.0.1:3306/halodb?characterEncoding=utf8&useSSL=false
-    username: root
-    password: 12345678
+    url: ${jdbc.url}
+    username: ${jdbc.username}
+    password: ${jdbc.password}
 
   h2:
     console:
